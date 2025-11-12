@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\bin\Release\net6.0\linux-x64\UnitySignInIntegrationCloud.deps.json
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\bin\Release\net6.0\linux-x64\UnitySignInIntegrationCloud.dll
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\bin\Release\net6.0\linux-x64\UnitySignInIntegrationCloud.pdb
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\obj\Release\net6.0\linux-x64\UnitySignInIntegrationCloud.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\obj\Release\net6.0\linux-x64\UnitySignInIntegrationCloud.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\obj\Release\net6.0\linux-x64\UnitySignInIntegrationCloud.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\obj\Release\net6.0\linux-x64\UnitySignInIntegrationCloud.AssemblyInfo.cs
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\obj\Release\net6.0\linux-x64\UnitySignInIntegrationCloud.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\obj\Release\net6.0\linux-x64\UnitySignInIntegrationCloud.dll
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\obj\Release\net6.0\linux-x64\refint\UnitySignInIntegrationCloud.dll
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\obj\Release\net6.0\linux-x64\UnitySignInIntegrationCloud.pdb
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\obj\Release\net6.0\linux-x64\ref\UnitySignInIntegrationCloud.dll

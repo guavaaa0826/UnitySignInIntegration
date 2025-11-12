@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\bin\Release\net6.0\any\UnitySignInIntegrationCloud.deps.json
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\bin\Release\net6.0\any\UnitySignInIntegrationCloud.dll
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\bin\Release\net6.0\any\UnitySignInIntegrationCloud.pdb
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\obj\Release\net6.0\any\UnitySignInIntegrationCloud.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\obj\Release\net6.0\any\UnitySignInIntegrationCloud.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\obj\Release\net6.0\any\UnitySignInIntegrationCloud.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\obj\Release\net6.0\any\UnitySignInIntegrationCloud.AssemblyInfo.cs
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\obj\Release\net6.0\any\UnitySignInIntegrationCloud.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\obj\Release\net6.0\any\UnitySignInIntegrationCloud.dll
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\obj\Release\net6.0\any\refint\UnitySignInIntegrationCloud.dll
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\obj\Release\net6.0\any\UnitySignInIntegrationCloud.pdb
+C:\Users\User\Desktop\Test\Unity\UnitySignInIntegration\UnitySignInIntegrationCloud\Project\obj\Release\net6.0\any\ref\UnitySignInIntegrationCloud.dll

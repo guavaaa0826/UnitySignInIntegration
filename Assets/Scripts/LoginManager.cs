@@ -21,6 +21,7 @@ public class LoginManager : MonoBehaviour
     private LoginState currentLogin;
     private string FacebookToken;
     public PlayerDataManager playerDataManager;
+    private const string FACEBOOK_NONCE = "NONCE123";
 
     // Player data management
     public Action PlayerSignedIn, PlayerSignedOut;
@@ -163,7 +164,20 @@ public class LoginManager : MonoBehaviour
         #endif
 
         #if UNITY_IOS
-        // FB.Mobile.LoginWithTrackingPreference();
+        Debug.Log("LoginManager: Signing in with Facebook on iOS.");
+        FB.Mobile.LoginWithTrackingPreference(LoginTracking.LIMITED, perms, FACEBOOK_NONCE, async result =>
+        {
+            if (FB.IsLoggedIn)
+            {
+                FacebookToken = FB.Mobile.CurrentAuthenticationToken().TokenString;
+                await SignInWithFacebookAsync(FacebookToken);
+            }
+            else
+            {
+                Debug.Log("LoginManager: User cancelled Facebook login.");
+            }
+        });
+        Debug.Log("LoginManager: Signing in with Facebook on iOS ends.");
         #endif
     }
 

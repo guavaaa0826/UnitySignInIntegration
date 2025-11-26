@@ -1,4 +1,0 @@
-repository "UnitySignInIntegration/UnitySignInIntegration@33260742653096@cloud"
-  path "/"
-    br "/main"
-    co "/main"

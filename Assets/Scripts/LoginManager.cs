@@ -16,8 +16,7 @@ public class LoginManager : MonoBehaviour
     {
         None,
         Unity,
-        Facebook,
-        Apple
+        Facebook
     }
     private LoginState currentLogin;
     private string FacebookToken;
@@ -148,6 +147,7 @@ public class LoginManager : MonoBehaviour
         Debug.Log("LoginManager: Signing in with Facebook.");
         var perms = new List<string>() { "public_profile", "email" }; // Define the permissions
 
+        #if UNITY_ANDROID
         FB.LogInWithReadPermissions(perms, async result =>
         {
             if (FB.IsLoggedIn)
@@ -160,6 +160,11 @@ public class LoginManager : MonoBehaviour
                 Debug.Log("LoginManager: User cancelled Facebook login.");
             }
         });
+        #endif
+
+        #if UNITY_IOS
+        // FB.Mobile.LoginWithTrackingPreference();
+        #endif
     }
 
     async Task SignInWithFacebookAsync(string token)

@@ -55,12 +55,6 @@ public class PlayerDataManager : MonoBehaviour
     public async void SavePlayerName()
     {
         string NewName = PlayerNameInputField.text; // Retrieve the PlayerName from the input field.
-        string message = IsPlayerNameValid(NewName);
-        if (message != null)
-        {
-            Debug.LogWarning($"PlayerDataManager: Saving new player name failed: {message}");
-            return;
-        }
         
         try
         {
@@ -72,23 +66,6 @@ public class PlayerDataManager : MonoBehaviour
         {
             Debug.Log($"PlayerDataManager: Error when saving new player name: {ex.Message}");
         }
-    }
-
-    private static string IsPlayerNameValid(string NewName)
-    {
-        if (NewName.Length < 4)
-        {
-            return "Name too short.";
-        }
-        else if (NewName.Length > 16)
-        {
-            return "Name too long.";
-        }
-        else if (!NewName.All(c => char.IsLetterOrDigit(c)))
-        {
-            return "Name contains non-alphanumeric characters.";
-        }
-        return null; // The NewName is valid
     }
 
     // Coin

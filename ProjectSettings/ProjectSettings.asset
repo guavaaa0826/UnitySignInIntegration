@@ -168,6 +168,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.Guavaaa.UnitySignInIntegration
     Standalone: com.DefaultCompany.2D-URP
+    iPhone: com.Guavaaa.UnitySignInIntegration
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -488,6 +489,9 @@ PlayerSettings:
   - m_BuildTarget: Android
     m_StaticBatching: 1
     m_DynamicBatching: 0
+  - m_BuildTarget: iPhone
+    m_StaticBatching: 1
+    m_DynamicBatching: 0
   m_BuildTargetShaderSettings: []
   m_BuildTargetGraphicsJobs: []
   m_BuildTargetGraphicsJobMode: []
@@ -512,6 +516,9 @@ PlayerSettings:
   - serializedVersion: 3
     m_BuildTarget: Android
     m_Formats: 01000000
+  - serializedVersion: 3
+    m_BuildTarget: iOS
+    m_Formats: 03000000
   playModeTestRunnerEnabled: 0
   runPlayModeTestAsEditModeTest: 0
   actionOnDotNetUnhandledException: 1

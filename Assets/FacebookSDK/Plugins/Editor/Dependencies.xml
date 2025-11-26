@@ -9,10 +9,10 @@
         <androidPackage spec="com.facebook.android:facebook-gamingservices:[18.0.0,19)" />
     </androidPackages>
     <iosPods>
-        <iosPod name="FBSDKCoreKit_Basics" version="~> 18.0.0" />
-        <iosPod name="FBSDKCoreKit" version="~> 18.0.0" />
-        <iosPod name="FBSDKLoginKit" version="~> 18.0.0" />
-        <iosPod name="FBSDKShareKit" version="~> 18.0.0" />
-        <iosPod name="FBSDKGamingServicesKit" version="~> 18.0.0" />
+        <iosPod name="FBSDKCoreKit_Basics" version="~> 18.0.0" addToAllTargets="true"/>
+        <iosPod name="FBSDKCoreKit" version="~> 18.0.0" addToAllTargets="true"/>
+        <iosPod name="FBSDKLoginKit" version="~> 18.0.0" addToAllTargets="true"/>
+        <iosPod name="FBSDKShareKit" version="~> 18.0.0" addToAllTargets="true"/>
+        <iosPod name="FBSDKGamingServicesKit" version="~> 18.0.0" addToAllTargets="true"/>
     </iosPods>
 </dependencies>
